@@ -1,3 +1,5 @@
+import 'package:animacoes_login/widgets/form_container.dart';
+import 'package:animacoes_login/widgets/sign_up_button.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -23,9 +25,15 @@ class _LoginScreenState extends State<LoginScreen> {
                   children: <Widget>[
                     Padding(
                       padding: EdgeInsets.only(top: 70.0, bottom: 32.0),
-                      child: Image.asset("images/tickicon.png", width: 150, height: 150, fit: BoxFit.contain,
+                      child: Image.asset(
+                        "images/tickicon.png",
+                        width: 150,
+                        height: 150,
+                        fit: BoxFit.contain,
+                      ),
                     ),
-                    FormContainer()
+                    FormContainer(),
+                    SignUpButton()
                   ],
                 )
               ],
