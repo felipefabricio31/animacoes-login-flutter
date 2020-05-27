@@ -18,6 +18,7 @@ class _HomeScreenState extends State<HomeScreen>
       vsync: this,
       duration: Duration(seconds: 2),
     );
+    _controller.forward();
   }
 
   @override
@@ -28,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen>
 
   @override
   Widget build(BuildContext context) {
-    timeDilation = 2;
+    timeDilation = 1;
 
     return StaggerAnimation(
       controller: _controller.view,
