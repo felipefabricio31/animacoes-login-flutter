@@ -1,10 +1,10 @@
 # Animações com Flutter
 
-<img src="" width="100%" heigth="auto">
+<img src="https://user-images.githubusercontent.com/29135156/83027540-9b103500-a006-11ea-9379-a8dcca69ec3d.gif" width="100%" heigth="auto">
 
 ## Introdução
 
-<p>Descrição do projeto</p>
+<p>App desenvolvido para apresentar alguns recurso de animações existentes dentro do Flutter. Este app é uma tela de login totalmente animada,que após clicar no botão de entrar, utilizando animações, navegamos para a tela Home, onde seus widgets são carregados com animações, deixando o aplicativo com aspecto mais suave.</p>
 
 # Pacotes utilizados
 
