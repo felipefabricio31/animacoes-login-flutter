@@ -1,4 +1,5 @@
-import 'package:animacoes_login/screens/home/home_screen.dart';
+import 'package:animacoes_login/screens/login/login_screen.dart';
+import 'package:flutter/scheduler.dart' show timeDilation;
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,6 +10,8 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    timeDilation = 1;
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Animações em Flutter',
@@ -16,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeScreen(),
+      home: LoginScreen(),
     );
   }
 }
