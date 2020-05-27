@@ -12,7 +12,7 @@ class AnimatedListView extends StatelessWidget {
       alignment: Alignment.bottomCenter,
       children: <Widget>[
         ListData(
-          title: "Estudar Flutter",
+          title: "Estudar Flutter 3",
           subtitle: "Curso Udemy",
           image: AssetImage("images/perfil.png"),
           margin: listSlidePosition.value * 3,
@@ -24,13 +24,13 @@ class AnimatedListView extends StatelessWidget {
           margin: listSlidePosition.value * 2,
         ),
         ListData(
-          title: "Estudar Flutter 2",
+          title: "Estudar Flutter 1",
           subtitle: "Curso Udemy",
           image: AssetImage("images/perfil.png"),
           margin: listSlidePosition.value * 1,
         ),
         ListData(
-          title: "Estudar Flutter 2",
+          title: "Estudar Flutter 0",
           subtitle: "Curso Udemy",
           image: AssetImage("images/perfil.png"),
           margin: listSlidePosition.value * 0,
